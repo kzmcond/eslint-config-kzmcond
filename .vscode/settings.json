@@ -1,0 +1,166 @@
+{
+  "editor.formatOnSave": true,
+  "editor.formatOnType": true,
+  "emmet.triggerExpansionOnTab": true,
+  "workbench.editor.enablePreview": false,
+  "editor.tabSize": 2,
+  "[python]": {
+    "editor.tabSize": 4
+  },
+  "editor.minimap.enabled": false,
+  "editor.hover.enabled": false,
+  // システムのクリップボードを利用する
+  "vim.useSystemClipboard": true,
+  // 検索にマッチしたテキストをハイライトする
+  "vim.hlsearch": true,
+  // easymotion を有効にする
+  "vim.easymotion": true,
+  // ビジュアルモードで * や # で検索
+  "vim.visualstar": true,
+  // 検索時に大文字小文字を無視する
+  "vim.ignorecase": true,
+  // インクリメンタルサーチ
+  "vim.incsearch": true,
+  // CamelCaseMotion を有効にする
+  "vim.camelCaseMotion.enable": true,
+  // leader キーの設定
+  //"vim.leader": "\\",
+  "vim.neovimPath": "/usr/bin/nvim",
+  "editor.fontSize": 17,
+  "terminal.integrated.fontSize": 15,
+  "markdown.extension.list.indentationSize": "inherit",
+  "files.autoSave": "afterDelay",
+  // キーバインドの設定
+  // 以下の例は実際には使ってないが参考として記述しておく。
+  //"vim.insertModeKeyBindings": [
+  //    {
+  //        "before": ["j", "j"],
+  //        "after": ["<Esc>"]
+  //    }
+  //],
+  //"vim.statusBarColorControl": true,
+  //"vim.statusBarColors.normal": ["#8FBCBB", "#434C5E"],
+  //"vim.statusBarColors.insert": "#BF616A",
+  //"vim.statusBarColors.visual": "#B48EAD",
+  //"vim.statusBarColors.visualline": "#B48EAD",
+  //"vim.statusBarColors.visualblock": "#A3BE8C",
+  //"vim.statusBarColors.replace": "#D08770",
+  //"workbench.colorCustomizations": {
+  //    "statusBar.background": "#BF616A",
+  //    "statusBar.noFolderBackground": "#BF616A",
+  //    "statusBar.debuggingBackground": "#BF616A"
+  //},
+  "better-comments.tags": [
+    // デフォルト値は省略
+    {
+      "tag": "CUSTOMIZE",
+      "color": "#8bffff",
+      "strikethrough": false,
+      "backgroundColor": "transparent"
+    }
+  ],
+  // Highlight Matching Tag
+  "editor.occurrencesHighlight": false,
+  "autoprefixer.browsers": [
+    "> 1%",
+    "last 2 versions",
+    "Firefox ESR",
+    "ie 8",
+    "ie 9"
+  ],
+  // Live Server
+  "liveServer.settings.donotShowInfoMsg": true,
+  "liveServer.settings.CustomBrowser": "chrome",
+  // Trailing Spaces
+  "files.trimTrailingWhitespace": true,
+  "workbench.startupEditor": "newUntitledFile",
+  "editor.renderWhitespace": "all",
+  "editor.fontFamily": "'Fira Code', 'Ricty Diminished', 'Fira Sans', '01FLOPDESIN', 'Cascadia Code PL', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+  "go.useLanguageServer": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript]": {
+    "editor.tabSize": 2,
+     "editor.defaultFormatter": "esbenp.prettier-vscode"
+//    "editor.defaultFormatter": "HookyQR.beautify"
+  },
+
+  // python
+  //  "python.venvFolders": [
+  //    "envs",
+  //    ".pyenv",
+  //    ".direnv",
+  //    ".venv",
+  //  ],
+  //"python.pythonPath": "/home/kzmcond/.anyenv/envs/pyenv/shims/python",
+  //  "python.pythonPath": "/home/kzmcond/learning/vscode/python_project/venv/bin/python",
+  //"files.watcherExclude": {
+  //  "**/venv/**": true
+  //},
+  //  "python.linting.enabled": true,
+  //  "python.linting.pylintEnabled": false,
+  //  "python.linting.flake8Enabled": true,
+  //  "python.linting.lintOnSave": true,
+  //  "python.linting.flake8Args": [
+  //    "--max-line-length",
+  //    "88",
+  //    "--ignore=E203,W503,W504"
+  //  ],
+  //  "python.formatting.provider": "black",
+
+  // Go
+  //"go.gocodeAutoBuild": true,
+  //"go.gopath": "/home/kzmcond/go",
+  //"go.formatOnSave": true,
+
+  // Rust
+  //"rust.rustLangSrcPath": “<Rust のソースコードの場所>”,
+  "rust.formatOnSave": true,
+  "rust.checkOnSave": true,
+  "rust.checkWith": "build",
+  "[html]": {
+    "editor.defaultFormatter": "HookyQR.beautify"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "HookyQR.beautify"
+  },
+  "python.jediEnabled": false,
+  "vscode-w3cvalidation.validator-token": "Wed, 07 Oct 2020 12:17:14 GMT",
+  "editor.acceptSuggestionOnEnter": "off",
+  "explorer.confirmDelete": false,
+  "tabnine.experimentalAutoImports": true,
+  // Prettier
+  "[typescript]": {
+    "editor.formatOnPaste": false,
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    },
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  // Default (format when you paste)
+  "editor.formatOnPaste": true,
+  "prettier.configPath": ".prettierrc",
+  "stylelint.config": {},
+  "python.languageServer": "Microsoft",
+  "workbench.colorTheme": "GitHub Dark",
+  "window.zoomLevel": 0,
+  "typescript.tsc.autoDetect": "off",
+  "grunt.autoDetect": "off",
+  "jake.autoDetect": "off",
+  "npm.autoDetect": "off",
+  "gulp.autoDetect": "off",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "editor.default_formatter": "esbenp.prettier-vscode",
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "workbench.iconTheme": "vscode-icons",
+  "[go]": {
+    "editor.insertSpaces": false,
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": true
+    }
+  }
+}

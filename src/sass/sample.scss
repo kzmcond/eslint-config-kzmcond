@@ -1,0 +1,31 @@
+/* Define standard variables and values for website */
+$bgcolor: lightblue;
+$textcolor: darkblue;
+$fontsize: 18px;
+
+/* Use the variables */
+body {
+  background-color: $bgcolor;
+  color: $textcolor;
+  font-size: $fontsize;
+}
+
+/*!
+compressedで圧縮したCSSでも
+コメントを残す方法
+*/
+button {
+  background: #FF0000;
+  &.blue {
+    background: #0000FF;
+  }
+}
+
+#content {
+  width: 100px;
+
+  p, div {
+    font-size: 5em;
+    a { font-weight: bold; }
+  }
+}
